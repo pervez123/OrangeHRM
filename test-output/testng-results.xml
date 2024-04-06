@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-03T18:16:45 IST" name="Suite" finished-at="2024-04-03T18:19:27 IST" duration-ms="162143">
+    <groups>
+    </groups>
+    <test started-at="2024-04-03T18:16:45 IST" name="login" finished-at="2024-04-03T18:17:37 IST" duration-ms="51771">
+      <class name="orangehrm.tests.Login">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:orangehrm.tests.Login@57db2b13]" started-at="2024-04-03T18:16:45 IST" name="launchApplication" finished-at="2024-04-03T18:16:56 IST" duration-ms="11143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginTest()[pri:0, instance:orangehrm.tests.Login@57db2b13]" started-at="2024-04-03T18:16:56 IST" name="loginTest" finished-at="2024-04-03T18:17:00 IST" duration-ms="3230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:orangehrm.tests.Login@57db2b13]" started-at="2024-04-03T18:17:00 IST" name="tearDown" finished-at="2024-04-03T18:17:00 IST" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:orangehrm.tests.Login@57db2b13]" started-at="2024-04-03T18:17:00 IST" name="launchApplication" finished-at="2024-04-03T18:17:09 IST" duration-ms="8799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginTest(java.util.HashMap)[pri:0, instance:orangehrm.tests.Login@57db2b13]" started-at="2024-04-03T18:17:09 IST" name="loginTest" data-provider="getInvalidData" finished-at="2024-04-03T18:17:13 IST" duration-ms="3419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Admin, email=Invalid}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:orangehrm.tests.Login@57db2b13]" started-at="2024-04-03T18:17:13 IST" name="tearDown" finished-at="2024-04-03T18:17:13 IST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:orangehrm.tests.Login@57db2b13]" started-at="2024-04-03T18:17:13 IST" name="launchApplication" finished-at="2024-04-03T18:17:22 IST" duration-ms="8858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginTest(java.util.HashMap)[pri:0, instance:orangehrm.tests.Login@57db2b13]" started-at="2024-04-03T18:17:22 IST" name="loginTest" data-provider="getInvalidData" finished-at="2024-04-03T18:17:25 IST" duration-ms="2959" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Invalid, email=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:orangehrm.tests.Login@57db2b13]" started-at="2024-04-03T18:17:25 IST" name="tearDown" finished-at="2024-04-03T18:17:25 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:orangehrm.tests.Login@57db2b13]" started-at="2024-04-03T18:17:25 IST" name="launchApplication" finished-at="2024-04-03T18:17:34 IST" duration-ms="9360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginTest(java.util.HashMap)[pri:0, instance:orangehrm.tests.Login@57db2b13]" started-at="2024-04-03T18:17:34 IST" name="loginTest" data-provider="getInvalidData" finished-at="2024-04-03T18:17:37 IST" duration-ms="2508" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Invalid, email=Invalid}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:orangehrm.tests.Login@57db2b13]" started-at="2024-04-03T18:17:37 IST" name="tearDown" finished-at="2024-04-03T18:17:37 IST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- orangehrm.tests.Login -->
+    </test> <!-- login -->
+    <test started-at="2024-04-03T18:16:45 IST" name="PIM" finished-at="2024-04-03T18:19:27 IST" duration-ms="162143">
+      <class name="orangehrm.tests.PIM">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:orangehrm.tests.PIM@7ac296f6]" started-at="2024-04-03T18:16:45 IST" name="launchApplication" finished-at="2024-04-03T18:16:57 IST" duration-ms="11265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="pimAddEmpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangehrm.tests.PIM@7ac296f6]" started-at="2024-04-03T18:16:57 IST" name="pimAddEmpTest" data-provider="getNewEmpData" finished-at="2024-04-03T18:17:10 IST" duration-ms="13156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Narvy]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[EMP001]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[C:\Users\52300409\Downloads\ohrm_branding.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pimAddEmpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:orangehrm.tests.PIM@7ac296f6]" started-at="2024-04-03T18:17:10 IST" name="tearDown" finished-at="2024-04-03T18:17:10 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:orangehrm.tests.PIM@7ac296f6]" started-at="2024-04-03T18:17:10 IST" name="launchApplication" finished-at="2024-04-03T18:17:18 IST" duration-ms="8546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="pimAddEmpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangehrm.tests.PIM@7ac296f6]" started-at="2024-04-03T18:17:18 IST" name="pimAddEmpTest" data-provider="getNewEmpData" finished-at="2024-04-03T18:17:32 IST" duration-ms="14091" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Harley]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[K]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Cheema]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[EMP002]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[C:\Users\52300409\Downloads\ohrm_branding.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pimAddEmpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:orangehrm.tests.PIM@7ac296f6]" started-at="2024-04-03T18:17:32 IST" name="tearDown" finished-at="2024-04-03T18:17:33 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:orangehrm.tests.PIM@7ac296f6]" started-at="2024-04-03T18:17:33 IST" name="launchApplication" finished-at="2024-04-03T18:17:38 IST" duration-ms="5037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="pimAddEmpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangehrm.tests.PIM@7ac296f6]" started-at="2024-04-03T18:17:38 IST" name="pimAddEmpTest" data-provider="getNewEmpData" finished-at="2024-04-03T18:17:52 IST" duration-ms="14762" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sher]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Narvy]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[EMP003]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[C:\Users\52300409\Downloads\ohrm_branding.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pimAddEmpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:orangehrm.tests.PIM@7ac296f6]" started-at="2024-04-03T18:17:52 IST" name="tearDown" finished-at="2024-04-03T18:17:53 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:orangehrm.tests.PIM@7ac296f6]" started-at="2024-04-03T18:17:53 IST" name="launchApplication" finished-at="2024-04-03T18:18:00 IST" duration-ms="7752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="pimAddEmpTest(java.util.HashMap)[pri:0, instance:orangehrm.tests.PIM@7ac296f6]" started-at="2024-04-03T18:18:00 IST" name="pimAddEmpTest" data-provider="getMandatoryEmpData" finished-at="2024-04-03T18:18:09 IST" duration-ms="8148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{lName=Bindra, fName=Abhi}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pimAddEmpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:orangehrm.tests.PIM@7ac296f6]" started-at="2024-04-03T18:18:09 IST" name="tearDown" finished-at="2024-04-03T18:18:09 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:orangehrm.tests.PIM@7ac296f6]" started-at="2024-04-03T18:18:09 IST" name="launchApplication" finished-at="2024-04-03T18:18:16 IST" duration-ms="7381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="pimAddEmpTest(java.util.HashMap)[pri:0, instance:orangehrm.tests.PIM@7ac296f6]" started-at="2024-04-03T18:18:16 IST" name="pimAddEmpTest" data-provider="getMandatoryEmpData" finished-at="2024-04-03T18:18:26 IST" duration-ms="9868" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{lName=Shetty, fName=Rahul}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pimAddEmpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:orangehrm.tests.PIM@7ac296f6]" started-at="2024-04-03T18:18:26 IST" name="tearDown" finished-at="2024-04-03T18:18:26 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:orangehrm.tests.PIM@7ac296f6]" started-at="2024-04-03T18:18:26 IST" name="launchApplication" finished-at="2024-04-03T18:18:33 IST" duration-ms="7195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="pimAddEmpTest(java.util.HashMap)[pri:0, instance:orangehrm.tests.PIM@7ac296f6]" started-at="2024-04-03T18:18:33 IST" name="pimAddEmpTest" data-provider="getMandatoryEmpData" finished-at="2024-04-03T18:18:43 IST" duration-ms="9370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{lName=Gony, fName=Ali}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pimAddEmpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:orangehrm.tests.PIM@7ac296f6]" started-at="2024-04-03T18:18:43 IST" name="tearDown" finished-at="2024-04-03T18:18:43 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:orangehrm.tests.PIM@7ac296f6]" started-at="2024-04-03T18:18:43 IST" name="launchApplication" finished-at="2024-04-03T18:18:49 IST" duration-ms="6238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="pimEditEmpTest()[pri:0, instance:orangehrm.tests.PIM@7ac296f6]" started-at="2024-04-03T18:18:49 IST" name="pimEditEmpTest" finished-at="2024-04-03T18:19:27 IST" duration-ms="38097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pimEditEmpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:orangehrm.tests.PIM@7ac296f6]" started-at="2024-04-03T18:19:27 IST" name="tearDown" finished-at="2024-04-03T18:19:27 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- orangehrm.tests.PIM -->
+    </test> <!-- PIM -->
+  </suite> <!-- Suite -->
+</testng-results>

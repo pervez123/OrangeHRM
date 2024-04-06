@@ -1,0 +1,19 @@
+[
+{ 
+	
+	"email" : "Invalid",
+	"password" : "Admin"
+	
+}, 
+
+{
+	"email" : "Admin",
+	"password" : "Invalid"
+}, 
+
+{
+	"email" : "Invalid",
+	"password" : "Invalid"
+}
+
+]
